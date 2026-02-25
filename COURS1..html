@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightgray;
+            font-size: 12;}
+        fieldset{
+            width: 130px;
+            height: auto;
+            border-radius: 10px;
+            padding: 20px;
+            border: 1px solid;
+        }
+    h3{
+      text-align: center;
+        }
+    button{
+       padding: 10px;
+       background-color: color color-mix(in
+        srgb, color percentage, color percentage);
+       color: white;
+       border: none;
+       border-radius 5px; 
+       font-weight: bold;
+       cursor: pointer;
+        }
+    input{
+        padding: 8px;
+        border-radius: 5px;
+        border: 1px;
+    }   
+    form-grouo{
+        display: flex;
+        flex-direction: row;
+    } 
+    </style>
+
+</head>
+
+<body>
+    <!--<h1>informations</h1>-->
+<fieldset>
+    <select>
+ <legend>INFORMATIONS</legend>
+ <form>
+ <div>
+         <label for="prenom">Prenom</label>
+    <input type="text" name="prenom" id="prenom">
+ </div>
+    <div>
+        <label for="nom">Nom</label>
+    <input type="text" name="nom" id="nom">
+ </div>
+    <div> 
+        <label for="email">email</label>
+    <input type="email" name="email" id="=email">
+ </div>
+    <div> 
+        <label for="motdepasse">mot de passe</label>
+    <input type="password" name="motdepasse" id="motdepasse">
+ </div>
+    <div> 
+        <label for="Profession">Profession</label>
+    <select>
+        <option value="">Etudiante</option>
+    </select>
+ </div>
+    <div> 
+        <label for="Situation">Situation</label>
+    </div>
+    <div>
+         <input type="radio" name="Situation"> <label for="marié">Marié</label>
+        </div>
+    <div>
+         <input type="radio" name="Situation"> <label for="célibataire">Célibataire</label>
+        </div>
+    <div> 
+        <input type="radio" name="Situation"> <label for="Divorcé">Divorcé</label>
+    </div>
+
+ </fieldset> 
+
+ <fieldset>
+    <legend style="color: blue;">COMPETENCES</legend>
+    <ul>
+        <div>
+        <li><input type="checkbox" name="competences" id="competences">
+    <label for="competences">comptabilité</label>
+        </li>
+        </div>
+        <div>
+        <li>
+            <input type="checkbox" name="soft skills" id="competences">
+            <label for="competences">team work</label>
+        </li>
+        </div>
+    
+    </ul>
+    </fieldset>
+
+    <fieldset>
+        <legend style="color: blue;">EXPERIENCES</legend>
+        <ol>
+            <div>
+            <li>
+                 <input type="checkbox" name="experiences" id="experiences">
+                 <label for="experiences">travail d'equipe entre etudiant</label>
+            </li>
+            </div>
+            <div>
+            <li>
+                 <input type="checkbox" name="experiences" id="experiences">
+                 <label for="experiences">travail d'equipe entre collegue</label>
+            </li>
+            </div>
+        </ol>
+    </fieldset>
+</form>
+    </select>
+</body>
+</html>
